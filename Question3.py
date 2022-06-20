@@ -1,0 +1,10 @@
+a,b=input().split()
+a=int(a)
+b=int(b)
+y=0
+if(1<=a<=b<=10):
+    while(a<=b):
+        y+=1
+        a*=3
+        b*=2
+print(str(y))
